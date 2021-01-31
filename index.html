@@ -23,47 +23,8 @@
             </div>
             <nav id="mobileNav" class="mobile_nav_menu">
                 <ul class="main_header_nav_list">
-                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">WHAT’S
-                            NEW</a></li>
-                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">BRANDS</a>
-                    </li>
-                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link"
-                            href="#">CURATIONS</a></li>
-                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">ART</a>
-                    </li>
-                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">BEAUTY</a>
-                    </li>
-                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">SELF
-                            CARE</a></li>
-                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">STYLE</a>
-                    </li>
-                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link"
-                            href="#">LIFESTYLE</a></li>
-                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">TECH</a>
-                    </li>
-                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">STORIES</a>
-                    </li>
-                </ul>
-            </nav>
-            <div id="closeBurg" onclick='closeBurger()' class="close_burger_menu">
-                <span></span>
-                <span></span>
-            </div>
-            <a class="main_supheader_item" href="#"></a>
-            <a class="main_supheader_item" href="#"></a>
-            <a class="main_supheader_item" href="#"></a>
-        </div>
-    </div>
-    <section class="main_header">
-        <div class="container">
-            <a class="main_header_logo" href="#">
-                <img src="img/Logomark_Blacklogo.svg" alt="">
-                <img src="img/taglinewithlogo-2namebrand.svg" alt="">
-            </a>
-            <nav class="main_header_nav">
-                <ul class="main_header_nav_list">
-                    <li onclick="pressBtn()" class="main_header_nav_list_item"><a onclick="pressBtn()"
-                            class="main_header_nav_list_item_link" href="#">WHAT’S
+                    <li onclick="pressBtn()" class="main_header_nav_list_item"><a class="main_header_nav_list_item_link"
+                            href="#">WHAT’S
                             NEW</a></li>
                     <li onclick="pressBtn()" class="main_header_nav_list_item"><a class="main_header_nav_list_item_link"
                             href="#">BRANDS</a>
@@ -89,6 +50,45 @@
                     </li>
                     <li onclick="pressBtn()" class="main_header_nav_list_item"><a class="main_header_nav_list_item_link"
                             href="#">STORIES</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="closeBurg" onclick='closeBurger()' class="close_burger_menu">
+                <span></span>
+                <span></span>
+            </div>
+            <a class="main_supheader_item" href="#"></a>
+            <a class="main_supheader_item" href="#"></a>
+            <a class="main_supheader_item" href="#"></a>
+        </div>
+    </div>
+    <section class="main_header">
+        <div class="container">
+            <a class="main_header_logo" href="#">
+                <img src="img/Logomark_Blacklogo.svg" alt="">
+                <img src="img/taglinewithlogo-2namebrand.svg" alt="">
+            </a>
+            <nav class="main_header_nav">
+                <ul class="main_header_nav_list">
+                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">WHAT’S
+                            NEW</a></li>
+                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">BRANDS</a>
+                    </li>
+                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link"
+                            href="#">CURATIONS</a></li>
+                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">ART</a>
+                    </li>
+                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">BEAUTY</a>
+                    </li>
+                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">SELF
+                            CARE</a></li>
+                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">STYLE</a>
+                    </li>
+                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link"
+                            href="#">LIFESTYLE</a></li>
+                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">TECH</a>
+                    </li>
+                    <li class="main_header_nav_list_item"><a class="main_header_nav_list_item_link" href="#">STORIES</a>
                     </li>
                 </ul>
             </nav>
@@ -327,7 +327,7 @@
             <div class="footer_wrapper">
                 <div class="footer_nav">
                     <div class="footer_nav_titles_list">
-                        <div onclick="firstFooterOpen()" class="footer_nav_titles_list_item">
+                        <div id="first_footer_item" onclick="firstFooterOpen()" class="footer_nav_titles_list_item">
                             <p class="footer_nav_titles_list_title">ABOUT SHOWFIELDS</p>
                             <div class="mobile_footer" id="first_footer_open">
                                 <ul>
@@ -342,7 +342,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div onclick="secondFooterOpen()" class="footer_nav_titles_list_item">
+                        <div id="second_footer_item" onclick="secondFooterOpen()" class="footer_nav_titles_list_item">
                             <p class="footer_nav_titles_list_title">VISITS US</p>
                             <div class="mobile_footer" id="second_footer_open">
                                 <ul>
@@ -356,7 +356,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div onclick="thirdFooterOpen()" class="footer_nav_titles_list_item">
+                        <div id="third_footer_item" onclick="thirdFooterOpen()" class="footer_nav_titles_list_item">
                             <p class="footer_nav_titles_list_title">PARTNER WITH US</p>
                             <div class="mobile_footer" id="third_footer_open">
                                 <ul>
@@ -369,7 +369,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div onclick="fourthFooterOpen()" class="footer_nav_titles_list_item">
+                        <div id="fourth_footer_item" onclick="fourthFooterOpen()" class="footer_nav_titles_list_item">
                             <p class="footer_nav_titles_list_title">FIND US</p>
                             <div class="mobile_footer" id="fourth_footer_open">
                                 <ul>
@@ -395,6 +395,12 @@
                         <div class="footer_letter_form_placeholders_btn">
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="footer_social_media">
+                <div class="container">
+                    <a target="_blank" class="footer_social_media_item" href="https://www.facebook.com"></a>
+                    <a target="_blank" class="footer_social_media_item" href="https://www.instagram.com/"></a>
                 </div>
             </div>
         </div>
