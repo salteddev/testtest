@@ -1065,6 +1065,7 @@ body{
     }
 
     .footer .container{
+        max-width: 800px;
         padding: 0;
     }
     .footer_wrapper{
