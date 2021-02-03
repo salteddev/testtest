@@ -714,6 +714,10 @@ body{
     transition: all 0.1s linear;
 }
 
+.footer_nav_titles_list_mobile{
+    display: none;
+}
+
 @media(max-width:1024px){
     .container{
         max-width: 1024px;
@@ -1176,6 +1180,14 @@ body{
     .footer_nav{
         padding-bottom: 20px;
     }
+
+    .footer_nav_titles_list{
+        display: none;
+    }
+
+    .footer_nav_titles_list_mobile{
+        display: inline;
+    }
 }
 
 @media(max-width:425px){
@@ -1515,6 +1527,87 @@ body{
     .sixth_name{
         padding-top: 25px;
     }
+    
+    
+}
+
+@media(max-width:320px){
+    .third_banner_left_side_avatar{
+        width: 60%;
+        height: 100%;
+    }
+    .third_banner_left_side_mobile .third_banner_left_side_avatar_wrapper::after{
+        left: -8px;
+        background-size: 330px;
+        width: 100%;
+        height: 100%;
+        top: 40px;
+    }
+
+    .recent_live_item_img_wrapper::before {
+        background-size: 81px;
+        left: 32px;
+        top: 3px;
+    }
+    .second_live_item::before {
+        background-size: 116px;
+        top: -42px;
+        left: -35px;
+    }
+    .third_live_item::after {
+        left: 90px;
+    }
+    .third_live_item::before {
+        left: 0px;
+        background-size: 90px;
+        top: -68px;
+    }
+    .fourth_live_item::before {
+        background-size: 117px;
+        left: -42px;
+    }
+    .fifth_live_item::before {
+        top: -31px;
+        background-size: 106px;
+        left: 0px;
+    }
+    .sixth_live_item::before {
+        background-size: 99px;
+        left: -29px;
+    }
+    .seventh_live_item::before {
+        top: -66px;
+        left: -54px;
+        background-size: 91px;
+    }
+    .eighth_live_item::before {
+        left: -42px;
+        background-size: 130px;
+        top: -56px;
+    }
+    .nineth_live_item::before {
+        left: -5px;
+        background-size: 115px;
+    }
+    .tenth_live_item::before {
+        top: -42px;
+        left: -71px;
+        background-size: 86px;
+    }
+    .eleventh_live_item::before {
+        top: -41px;
+        left: -33px;
+        background-size: 123px;
+    }
+    .eleventh_live_item::after {
+        left: 36px;
+    }
+    .twelfeth_live_item::before {   
+        left: 26px;
+    }
+    
+    
+    
     
     
 }
